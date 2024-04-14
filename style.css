@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width:100%;
+    font-family: "Mulish", sans-serif;
+}
+.sub-wrap{
+    width:1100px;
+    margin: 0 auto;
+    font-family: "Mulish", sans-serif;
+}
+img{
+   max-width:100% ; 
+}
+.main_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.manu{
+    /* background-color: blue; */
+}
+
+.manu a{
+    text-decoration: none;
+    padding: 20px 10px;
+    font-weight: bold;
+    font-size:20px;
+    color: black;
+}
+.but{
+    text-decoration: none;
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size:15px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 10px;
+}
+.horo-section{
+    padding-top: 150px;
+    text-align: center;
+}
+.horo-section h2{
+    margin: 0;
+}
+.hero_but{
+    margin-top:30px;
+}
+.main_testmonial{
+    margin-top: 100px;;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap:50px;
+    background-color: rgb(227, 233, 233);
+ 
+}
+.madill{
+    text-align: center;
+}
+.tastiemonial_img{
+    max-width: 100%;
+    align-items: center;
+}
+.testimonial_contend{
+    max-width: 50%;
+
+}
+.all_works{
+    margin-top: 100px;;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap:20px;
+}
+.all_works img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: 80% 100%;
+}
+
+.last_contend{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap:20px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.cont{
+    border: 1px solid rgb(173, 173, 173);
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+footer{
+    padding: 30px;
+    background-color: black;
+}
+.foot{
+    text-align: center;
+}
+.foot img{
+    width:40px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 2px;
+    margin: 5px;
+}
+.foot_text{
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+.testmonial_bg{
+    background-color:#E3E9E9 ;
+}
+.footer_bg{
+    background-color: black;
+}
